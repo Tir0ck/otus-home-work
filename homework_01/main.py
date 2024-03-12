@@ -42,7 +42,7 @@ def is_odd(n):
         return True
 
 
-def filter_numbers(*nums, arg='prime'):
+def filter_numbers(nums, arg):
     """
     функция, которая на вход принимает список из целых чисел,
     и возвращает только чётные/нечётные/простые числа
